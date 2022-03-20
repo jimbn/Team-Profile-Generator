@@ -1,15 +1,4 @@
-const { test, expect } = require('@jest/globals');
 const Employee = require('../lib/Employee.js');
-
-
-// Has the following
-// name
-// id
-// email
-// getName()
-// getid()
-// getEmail()
-// getRole() - Returns 'Employee'
 
 test('create an employee object', () => {
     const employee = new Employee('Bob', 12345, 'Bob@foo.com');
