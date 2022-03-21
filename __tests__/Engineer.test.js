@@ -1,9 +1,3 @@
-// Child of emploee
-// gitHub - GitHub username
-// getGithub()
-// getRole - overridden to return 'Engineer'
-
-const { test, expect } = require('@jest/globals');
 const Engineer = require('../lib/Engineer.js');
 
 test("set engineer's Github username", () => {
