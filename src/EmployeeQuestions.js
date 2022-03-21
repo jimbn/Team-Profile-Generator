@@ -39,13 +39,7 @@ const EmployeeQuestions = [
                 return false;
             }
         }
-    },
-    {
-        type:'list',
-        name:'role',
-        message:"Please select the employee's role.",
-        choices:['Engineer', 'Intern', 'Manager'],
-    },
+    }
 ]
 
 module.exports = EmployeeQuestions;
