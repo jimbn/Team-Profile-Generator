@@ -40,7 +40,8 @@
   Below is a link to my video showing tests on constructors and a walk through of the application. 
   The photo is a screenshot of the final HTML document generated!
 
-  ![Screenshot (156)]
+  ![team-profile-generator-screenshot](https://user-images.githubusercontent.com/95522881/166837974-33b3bb46-ab65-4640-9f8f-5c815f58aace.png)
+
 
   [Link to my Video Demo] https://drive.google.com/file/d/11qaVF1EURxtdqy4KnoxYUiKUNWxIymXz/view
 
