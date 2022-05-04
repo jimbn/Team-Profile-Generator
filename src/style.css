@@ -1,0 +1,19 @@
+.class-container {
+    padding-top: 5rem;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    background-color: teal;
+}
+
+.card {
+    background-color: turquoise;
+}
+
+.shadow {
+    box-shadow: 20px rgba(0, 0, 0, 1);
+    padding: auto;
+}

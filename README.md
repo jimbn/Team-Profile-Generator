@@ -1,34 +1,59 @@
-# Team-Profile-Generator
+# TeamProfileWizard
 
-AS A manager
-I WANT to generate a webpage that displays my team's basic info
-SO THAT I have quick access to their emails and GitHub profiles
+  ![badge](https://img.shields.io/badge/license-MITLicense-brightorange)
+  
+  ## Table of Contents
+  
+-[Licensing](#Licensing)
 
-<!-- Inquire -->
-GIVEN a command-line application that accepts user input
+-[Description](#Description)
+
+-[Installation](#Installation)
+
+-[Demo Video](#Demo)
+
+-[Usage](#Usage)
+
+-[Contributions](#Contributions)
+
+-[Tests](#Tests)
+
+-[Questions](#Questions)
+
+  ## Licensing:
+ 
+  This application uses MIT License.
+
+  For more information please visit the [license description](https://choosealicense.com/licenses/mit/).
+
+  ## Description
+
+  A command line application that allows user input to build a responsive layout showing a profile of the current work team. 
+
+  ## Installation
+  Follow these steps to properly install this application:
+
+  User must clone the repo from Github and then make sure they have Node.JS installed on their local machine. 
+
+  ## Demo 
+
+  Below is a link to my video showing tests on constructors and a walk through of the application. 
+  The photo is a screenshot of the final HTML document generated!
+
+  ![Screenshot (156)]
+
+  [Link to my Video Demo] https://drive.google.com/file/d/11qaVF1EURxtdqy4KnoxYUiKUNWxIymXz/view
+
+  ## Usage 
+ 
+   User will run the command line 'node index.js' in the terminal. Then the user will be prompted to answer a series of questions about the team's manager. Next the user will be presented with a menu displaying options to either'Add an Engineer, Add an Intern or Generate team profile.' Once the  user has added all team member information and selects 'Generate team profile', the user will have an index.html document generated in the folder /dist. The user can open the HTML document in the browser to see their final clean layout of their team roster!
 
 
-WHEN I am prompted for my team members and their information
-THEN an HTML file is generated that displays a nicely formatted team roster based on user input
+  ## Tests 
+  Instructions for testing this application:
 
-WHEN I click on an email address in the HTML
-THEN my default email program opens and populates the TO field of the email with the address
+  Tests for this application are run by Jest 
 
-WHEN I click on the GitHub username
-THEN that GitHub profile opens in a new tab
-
-WHEN I start the application
-THEN I am prompted to enter the team manager’s name, employee ID, email address, and office number
-
-WHEN I enter the team manager’s name, employee ID, email address, and office number
-THEN I am presented with a menu with the option to add an engineer or an intern or to finish building my team
-
-WHEN I select the engineer option
-THEN I am prompted to enter the engineer’s name, ID, email, and GitHub username, and I am taken back to the menu
-
-WHEN I select the intern option
-THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
-
-<!-- Finish Inquire => answer save onto HTML -->
-WHEN I decide to finish building my team
-THEN I exit the application, and the HTML is generated
+  ## Questions
+  Any questions please reach out to me at my [Github](https://github.com/jimbn)
+  
