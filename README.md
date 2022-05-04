@@ -14,8 +14,6 @@
 
 -[Usage](#Usage)
 
--[Contributions](#Contributions)
-
 -[Tests](#Tests)
 
 -[Questions](#Questions)
